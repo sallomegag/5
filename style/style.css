@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-image: url(../img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+ header {
+    padding: 30px;
+    height: 90px;
+    background-color: #83de9a;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 9;
+ }
+
+ header h1 {
+   width: 100px;
+   height: 70px;
+   background-image: url(../img/logo.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   text-indent: -9999999px;
+   float: left;
+   margin-right: 500px;
+
+ }
+ header h1 a {
+   display: block;
+   width: 100px;
+   height: 70px;
+
+ }
+
+ main {
+    padding-top: 90px;
+ }
+ 
+
+ header li {
+    float: left;
+    margin-right: 20px;
+ }
+ header li a {
+    padding: 5px 10px;
+    color: #000000;
+    text-transform: uppercase;
+
+ }
+ .kvadrati {
+    width: 500px;
+    height: 500px;
+    background-color: #7f0398;
+    padding: 100px;
+    margin: 50px auto;
+    position: relative;
+    z-index: 2;
+
+ }
+
+ .meotxe {
+    background-color: #ff7414;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+ }
+ .kvadratuka {
+    width: 300px;
+    height: 300px;
+    background-color: #039821;
+    padding: 100px;
+ }
+ .baby {
+width: 100px;
+height: 100px;
+/*background-color: #140398;*/
+background-image: url(../img/love.png);
+background-repeat: no-repeat;
+background-size: 100%;
+position: absolute;
+top: 50px;
+left: 0%;
+z-index: 2;
+ }
+ 
+ .social {
+    width: 100px;
+    height: 200px;
+    position: fixed;
+    top: 200px;
+    right: 0%;
+ }
+ .social .facebook , .social .instagram {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+   background-size: 100%;
+ }
+ .social .facebook img, .social .instagram img {
+    width: 100%;
+ }
+
+ .social .facebook {
+   background-image: url(../img/facebook.png);
+   
+ }
+ .social .instagram {
+   background-image: url(../img/instagram.png);
+ }
+
+ .social a {
+   display: block;
+   width: 100%;
+   height: 100%;
+ }
+
+ 
